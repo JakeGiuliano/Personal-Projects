@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieSelector", "MovieSelector\MovieSelector.csproj", "{6419DABD-0485-4E9E-871B-9285AC43E56B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6419DABD-0485-4E9E-871B-9285AC43E56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6419DABD-0485-4E9E-871B-9285AC43E56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6419DABD-0485-4E9E-871B-9285AC43E56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6419DABD-0485-4E9E-871B-9285AC43E56B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0482A9EF-3EAA-4C12-8FB5-6245E5B45B70}
+	EndGlobalSection
+EndGlobal

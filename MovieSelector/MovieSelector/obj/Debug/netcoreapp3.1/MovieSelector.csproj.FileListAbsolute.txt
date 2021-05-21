@@ -1,0 +1,13 @@
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\bin\Debug\netcoreapp3.1\MovieSelector.exe
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\bin\Debug\netcoreapp3.1\MovieSelector.deps.json
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\bin\Debug\netcoreapp3.1\MovieSelector.runtimeconfig.json
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\bin\Debug\netcoreapp3.1\MovieSelector.runtimeconfig.dev.json
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\bin\Debug\netcoreapp3.1\MovieSelector.dll
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\bin\Debug\netcoreapp3.1\MovieSelector.pdb
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\obj\Debug\netcoreapp3.1\MovieSelector.csprojAssemblyReference.cache
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\obj\Debug\netcoreapp3.1\MovieSelector.AssemblyInfoInputs.cache
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\obj\Debug\netcoreapp3.1\MovieSelector.AssemblyInfo.cs
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\obj\Debug\netcoreapp3.1\MovieSelector.csproj.CoreCompileInputs.cache
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\obj\Debug\netcoreapp3.1\MovieSelector.dll
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\obj\Debug\netcoreapp3.1\MovieSelector.pdb
+C:\Users\Vinta\source\repos\MovieSelector\MovieSelector\obj\Debug\netcoreapp3.1\MovieSelector.genruntimeconfig.cache
