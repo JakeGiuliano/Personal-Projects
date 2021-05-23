@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 
 
+
 namespace MovieSelector
 {
     class RandomMovieGenerator
     {
         static void Main(string[] args)
         {
+
             Console.Write("Please choose one of the following movie genres: \r\nSciFi, Horror, Comedy, Action, Kids, Documentaries, Musical \r\nIf you want a random genre please input Random: ");
             string userInputGenre = Console.ReadLine();
             Console.WriteLine();
@@ -44,6 +46,9 @@ namespace MovieSelector
             RandomMovieSelectorDictionary["Random"] = ($"The random genre is: {MovieGenres[randomInt]} \r\n{MovieGenresReturn[randomInt]}");
 
             Console.WriteLine(RandomMovieSelectorDictionary[userInputGenre]);
+
+
+            Console.ReadLine();
         }
     }
 }

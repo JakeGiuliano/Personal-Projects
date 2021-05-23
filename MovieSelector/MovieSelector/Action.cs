@@ -80,7 +80,7 @@ namespace MovieSelector
         public static string actionMovie()
         {
             Random rand = new Random();
-            int randInt = rand.Next(0, 19);
+            int randInt = rand.Next(0, ActionMovieName.Count);
             return ($"Today's movie selection is: {ActionMovieName[randInt]} \r\nIt was released in: {ActionMovieYear[randInt]} \r\n\r\n{ActionMovieDescription[randInt]}");
         }
     }

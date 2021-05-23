@@ -28,9 +28,32 @@ namespace MovieSelector
            ("Back to the Future"),
            ("Back to the Future Part II"),
            ("Back to the Future Part III"),
+           ("Iron Man"),
+           ("The Incredible Hulk"),
+           ("Iron Man 2"),
+           ("Thor"),
+           ("Captain America: The First Avenger"),
+           ("The Avengers"),
+           ("Iron Man 3"),
+           ("Thor: The Dark World"),
+           ("Captain America: The Winter Soldier"),
+           ("Guardians of the Galaxy"),
+           ("Avengers: Age of Ultron"),
+           ("Ant-Man"),
+           ("Captain America: Civil War"),
+           ("Doctor Strange"),
+           ("Guardians of the Galaxy Vol. 2"),
+           ("Spider-Man: Homecoming"),
+           ("Thor: Ragnarok"),
+           ("Black Panther"),
+           ("Avengers: Infinity War"),
+           ("Ant-Man and the Wasp"),
+           ("Captain Marvel"),
+           ("Avengers: Endgame"),
+           ("Spider-Man: Far From Home"),
         };
 
-        public static List<int> DocumentariesMovieYear { get; private set; } = new List<int>()
+        public static List<int> SciFiMovieYear { get; private set; } = new List<int>()
         {
            (1999),
            (2002),
@@ -52,6 +75,29 @@ namespace MovieSelector
            (1985),
            (1989),
            (1990),
+           (2008),
+           (2008),
+           (2010),
+           (2011),
+           (2011),
+           (2012),
+           (2013),
+           (2013),
+           (2014),
+           (2014),
+           (2015),
+           (2015),
+           (2016),
+           (2016),
+           (2017),
+           (2017),
+           (2017),
+           (2018),
+           (2018),
+           (2018),
+           (2019),
+           (2019),
+           (2019),
         };
 
         public static List<string> SciFiMovieDescription { get; private set; } = new List<string>()
@@ -76,12 +122,35 @@ namespace MovieSelector
            ("17 year old Marty McFly is sent back to the year 1985 where he runs into trouble which changes his future. Can he fix the changes he made in time?"),
            ("In this sequal Marty McFly is sent to the far off year of 2015 where he sees his family in ruin. Can he avoid this dreadful future?"),
            ("In the final installment of this trilogy Doc Brown is stuck in 1885 in a precarious situation. Can Marty find a way to save Doc before time runs out?"),
+           ("After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil."),
+           ("Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper."),
+           ("With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy."),
+           ("The powerful but arrogant god Thor is cast out of Asgard to live amongst humans in Midgard (Earth), where he soon becomes one of their finest defenders."),
+           ("Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a Super-Soldier serum. But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization."),
+           ("Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."),
+           ("When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution."),
+           ("When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with doctor Jane Foster."),
+           ("As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier."),
+           ("A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe."),
+           ("When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan."),
+           ("Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, cat burglar Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world."),
+           ("Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man."),
+           ("While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts."),
+           ("The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego."),
+           ("Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City."),
+           ("Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela."),
+           ("T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past."),
+           ("The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."),
+           ("As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past."),
+           ("Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."),
+           ("After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."),
+           ("Following the events of Avengers: Endgame (2019), Spider-Man must step up to take on new threats in a world that has changed forever."),
         };
         public static string scifiMovie()
         {
             Random rand = new Random();
-            int randInt = rand.Next(0, 19);
-            return ($"Today's movie selection is: {SciFiMovieName[randInt]} \r\nIt was released in: {DocumentariesMovieYear[randInt]} \r\n\r\n{SciFiMovieDescription[randInt]}");
+            int randInt = rand.Next(0, SciFiMovieName.Count);
+            return ($"Today's movie selection is: {SciFiMovieName[randInt]} \r\nIt was released in: {SciFiMovieYear[randInt]} \r\n\r\n{SciFiMovieDescription[randInt]}");
         }
     }
 }
