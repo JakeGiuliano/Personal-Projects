@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace MovieSelector
 {
-    class RandomMovieGenerator
+    class ABCMovieSelector
     {
         static void Main(string[] args)
         {
@@ -36,16 +36,16 @@ namespace MovieSelector
             int randomInt = random.Next(0, 6);
 
             Dictionary<string, string> RandomMovieSelectorDictionary = new Dictionary<string, string>();
-            RandomMovieSelectorDictionary["SciFi"] = SciFi.scifiMovie();
-            RandomMovieSelectorDictionary["Horror"] = Horror.horrorMovie();
-            RandomMovieSelectorDictionary["Comedy"] = Comedy.comedyMovie();
-            RandomMovieSelectorDictionary["Action"] = Action.actionMovie();
-            RandomMovieSelectorDictionary["Kids"] = Kids.kidsMovie();
-            RandomMovieSelectorDictionary["Documentaries"] = Documentaries.documentariesMovie();
-            RandomMovieSelectorDictionary["Musical"] = Musicals.musicalsMovie();
-            RandomMovieSelectorDictionary["Random"] = ($"The random genre is: {MovieGenres[randomInt]} \r\n{MovieGenresReturn[randomInt]}");
+            RandomMovieSelectorDictionary["scifi"] = SciFi.scifiMovie();
+            RandomMovieSelectorDictionary["horror"] = Horror.horrorMovie();
+            RandomMovieSelectorDictionary["comedy"] = Comedy.comedyMovie();
+            RandomMovieSelectorDictionary["action"] = Action.actionMovie();
+            RandomMovieSelectorDictionary["kids"] = Kids.kidsMovie();
+            RandomMovieSelectorDictionary["documentaries"] = Documentaries.documentariesMovie();
+            RandomMovieSelectorDictionary["musical"] = Musicals.musicalsMovie();
+            RandomMovieSelectorDictionary["random"] = ($"The random genre is: {MovieGenres[randomInt]} \r\n{MovieGenresReturn[randomInt]}");
 
-            Console.WriteLine(RandomMovieSelectorDictionary[userInputGenre]);
+            Console.WriteLine(RandomMovieSelectorDictionary[userInputGenre.ToLower()]);
 
 
             Console.ReadLine();

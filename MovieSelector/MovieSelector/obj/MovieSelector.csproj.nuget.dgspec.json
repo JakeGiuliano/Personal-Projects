@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\Practice Work\\Personal-Projects\\MovieSelector\\MovieSelector\\MovieSelector.csproj": {}
+    "C:\\New folder\\MovieSelector\\MovieSelector\\MovieSelector.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\Practice Work\\Personal-Projects\\MovieSelector\\MovieSelector\\MovieSelector.csproj": {
+    "C:\\New folder\\MovieSelector\\MovieSelector\\MovieSelector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\Practice Work\\Personal-Projects\\MovieSelector\\MovieSelector\\MovieSelector.csproj",
+        "projectUniqueName": "C:\\New folder\\MovieSelector\\MovieSelector\\MovieSelector.csproj",
         "projectName": "MovieSelector",
-        "projectPath": "D:\\Coding\\Practice Work\\Personal-Projects\\MovieSelector\\MovieSelector\\MovieSelector.csproj",
-        "packagesPath": "C:\\Users\\Vinta\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\Practice Work\\Personal-Projects\\MovieSelector\\MovieSelector\\obj\\",
+        "projectPath": "C:\\New folder\\MovieSelector\\MovieSelector\\MovieSelector.csproj",
+        "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
+        "outputPath": "C:\\New folder\\MovieSelector\\MovieSelector\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Vinta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
